@@ -1,0 +1,73 @@
+nav {
+	background-color: #f4511e !important;
+}
+div.first{
+	background-color: #ff4500;
+	height: 32px;
+}
+
+div.first a, div.first p, a.nav-link, footer div p a, .social{
+	color: white;
+}
+h3{
+	color: #f4511e;
+}
+
+
+div ul li p a:hover{
+	color: black;
+}
+
+nav.second {
+	top: 32px;
+	opacity: 0.9;
+}
+
+p.post{
+	font-size: 0.8em;
+	color: #f4511e;
+}
+
+footer{
+	background-color: #f4511e;
+}
+div.copyright{
+	background-color: #f4511e;
+}
+
+.social  {
+	font-size: 30px;
+    width: 50px;
+}
+
+.btn-send {
+
+	background-color: #f4511e;
+}
+
+
+.carousel-item{
+	height: 300px;
+}
+
+
+
+
+/** for second slide */
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right{
+	-webkit-transform: translate3d(0,0,0);
+			transform: translate3d(0,0,0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right{
+	-webkit-transform: translate3d(0,100%,0);
+			transform: translate3d(0,100%,0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left{
+	-webkit-transform: translate3d(0,-100%,0);
+			transform: translate3d(0,-100%,0);
+}
